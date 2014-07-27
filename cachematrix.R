@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The goal of this part is to calculate the inverse of the matrix. As everyone know, computing 
+##matrix inverse is a costly computation. Therefore, two functions have been use to lower the computation cost
+## These two functions convert an invertible matrix to it's inverse.
 
 ## create cache matrix
 
@@ -19,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
+#The function below converts the above function to it's inverse.
 cacheSolve <- function(x, ...) {
 m <- x$getmean()
         if(!is.null(m)) {
